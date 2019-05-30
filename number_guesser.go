@@ -45,7 +45,5 @@ func guess(min, max int) {
 
 func main() {
 	println("I will ask you several questions to guess your number, 0-100")
-	//p := makeRange(0, 100)
 	guess(0, 100)
-
 }
